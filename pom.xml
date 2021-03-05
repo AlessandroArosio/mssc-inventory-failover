@@ -14,6 +14,10 @@
     <name>mssc-inventory-failover</name>
     <description>Inventory Failover Service</description>
 
+    <properties>
+        <docker.image.prefix>alessandroarosio</docker.image.prefix>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
